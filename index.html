@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrolling Sections</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+  <div id='graphic'>
+    <div id='sections'>
+      <section class="step">
+        <div class="title">How Risky is it to Ride a Plane?</div>
+        <p>
+            Air travel is one of the world's most common form of travel in between destinations. 
+            Between 1995 and 2016, World Bank estimates that there has been 16 million of trips made.
+            However, the medium is not risk free.
+            There are alwasy chances that an incident can occur, and in the worst case, it can be fatal.
+            But just how risky is it?
+        </p>
+      </section>
+
+      <section class="step">
+        <div class="title">Aircraft Incidents in the World: 1995-2016</div>
+        <p>
+            There were 1987 total aircraft incidents that happened, that is roughly 0.001%.
+        </p>
+      </section>
+
+      <section class="step">
+        <p>
+            Out of the 1987, 134 (or 6.7%) were fatal. However, that is still only 6.7% of 0.001%.
+        </p>
+      </section>
+
+      <section class="step">
+        <p>
+            Now, 766 incidents were non-fatal. Meaning in 38.5% of the incidents, no one died. The remaining 54.8% were not serious enough to even be categorized as "non-fatal."
+        </p>
+      </section>
+
+      <section class="step">
+        <p>
+            Putting into perspective, in those 22 years, 99.999% of the flights were safe. But, some of you may ask, can I make my trip even safer? Let's explore some data that may help you with this.
+        </p>
+      </section>
+
+      <section class="step">
+        <div class="title">Aircraft Incidents by Country</div>
+        <p>
+            If you are flying on a flight not to/from United States, you are in luck. It appears that United States has had the most incidents in those 22 years at 1036 incidents. In comparison, the UK only had 70.
+        </p>
+      </section>
+
+      <section class="step">
+        <div class="title">Aircraft Incidents by Carrier</div>
+        <p>
+            Here are the carriers with the top 10 most incidents. Delta seems to have had the most incidents, while Alaska Airlines had the least. Maybe it would be a good idea to avoid all of them?
+        </p>
+      </section>
+
+      <section class="step">
+        <div class="title">Aircraft Incidents by Manufacturer</div>
+        <p>
+            Despite looking similar, aircrafts are made by different manufacturers. The chart shows that Boeing has had the greatest number of incidents. Did you know you can check which manufacturer your carrier is flying when you book your ticket?
+        </p>
+      </section>
+
+      <section class="step">
+        <div class="title">Aircraft Incidents by Flight Phase</div>
+        <p>
+            All that has been discussed above can sometimes be out of your control, so here's some data that works for every plane regardless of the previous criteria: flight phases. While you may need to do some search on what each phase means, knowing what phase incident happens the most can be helpful when you fly. From our data, Takeoff and Taxi seems to have the most incidents, while maneuvering, go-around, and climb have the least incidents.
+        </p>
+        <p>
+          Have a safe flight!
+        </p>
+      </section>
+    </div>
+    <div id='vis'>
+    </div>
+    <div id="extra-space">
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="./scroller.js"></script>
+<script src="./sections.js"></script>
+</body>
+</html>
