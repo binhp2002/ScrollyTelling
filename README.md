@@ -3,7 +3,7 @@
 This interactive, scrollable visualization that mapped data from a CSV file discussed various statistics of aircraft incidents to provide a deeper understanding of how risky air traffic is.  
 
 User Interaction:
-1) Scrollable web page, with visualization and story properly updating with scroll (Vis and story should be fading in/out as the page is scrolled up/down)
+1) Scrollable web page, with visualization and story properly updating with scroll (Visualization and story will be fading in/out as the page is scrolled up/down)
 2) Each story is connected to its visualizations, only displaying the chart relevant to its story, which includes:
    1) Dot Matrix Chart:
       1) Each represents an aircraft incident
